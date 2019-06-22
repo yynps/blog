@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Yuan's Blog
 subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+description: 业精于勤荒于嬉，行成于思毁于随
+keywords: PHP,网页开发,WEB开发,css,js,编程,环境安装,数据库,mysql,mongodb,mongo,elasticsearch,学习总结
+author: YuanYuan
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://i.hicoder.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo:
+    github: https://github.com/yynps/blog,gh-pages
