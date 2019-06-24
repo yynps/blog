@@ -1,0 +1,8 @@
+language: node_js
+node_js: --lts
+before_script:
+  - git config user.name "Yuan"
+  - git config user.email "yuan@hicoder.cn"
+script:
+  - hexo g
+  - hexo d
