@@ -80,4 +80,6 @@ theme: next
 deploy:
   type: git
   repo:
-    github: https://github.com/yynps/blog,gh-pages
+    github: https://github.com/yynps/yynps.github.io,master
+	#github: https://github.com/yynps/blog,gh-pages
+	#coding: https://git.coding.net/EverForever/EverForever.coding.me.git,master
