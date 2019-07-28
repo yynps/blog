@@ -5,7 +5,7 @@ before_script:
   - export TZ="Asia/Shanghai"
   - git config user.name "Yuan"
   - git config user.email "yuan@hicoder.cn"
-  - sed -i "s~https://github.com/yynps/yynps.github.io~https://${GITHUB_ACCESS_TOKEN}@github.com/yynps/yynps.github.io~" _config.yml
+  - sed -i "s~https://github.com/yynps/blog~https://${GITHUB_ACCESS_TOKEN}@github.com/yynps/blog~" _config.yml
 script:
   - hexo g
   - hexo d
