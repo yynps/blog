@@ -1,6 +1,7 @@
 ---
 title: 教你优雅地搭建hexo博客
 date: 2018-07-05 17:09:03
+updated: 2018-07-05 17:09:03
 comments: true
 tags: 
     - hexo

@@ -1,6 +1,7 @@
 ---
 title: 设计模式--策略模式
 date: 2018-05-05 10:21
+updated: 2018-05-05 10:21
 comments: true
 tags: 
 	- 设计模式

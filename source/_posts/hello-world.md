@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 date: 2018-05-01 10:00
+updated: 2018-05-01 10:00
 comments: true
 tags: 
 	- 杂谈
